@@ -379,7 +379,7 @@ namespace FormulaPlugger
                                 System.Console.WriteLine($"{numElectrons} electrons, Calculated - answer:");
                                 toWriteString += $"{numElectrons} electrons, Calculated - answer:\r\n";
                                 System.Console.WriteLine(valueSplit[i]);
-                                toWriteString += $"{valueSplit[i]} electrons, Calculated - answer:\r\n";
+                                toWriteString += $"{valueSplit[i]}";
                             }
                         }
                         if (i % totalCols == measCol)
